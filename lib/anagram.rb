@@ -7,9 +7,11 @@ class Anagram :test_word
   end
   
   def match(test_ary)
+    t = ""
     test_ary.detect do |word|
-      word.split(//).sort == @test_word.split(//).sort
+      t = word.split(//).sort# == @test_word.split(//).sort
     end
+    t
     binding.pry
   end
 end
