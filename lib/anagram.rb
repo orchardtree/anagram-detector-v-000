@@ -6,7 +6,8 @@ class Anagram :test_word
     @test_word = test_word
   end
   
-  def match(x)
+  def match(test_word)
+    
   end
     
   
