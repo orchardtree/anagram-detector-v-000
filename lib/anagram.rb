@@ -8,11 +8,9 @@ class Anagram :test_word
   
   def match(test_ary)
     anagram = false
-    test_ary.each do |word|
-      if word.split(//).sort == @test_word.split(//).sort
-        anagram = true
-      else
-        anagram = false
+    test_ary.detect do |word|
+      word.split(//).sort == @test_word.split(//).sort
+agram = false
       end
     end
     anagram
