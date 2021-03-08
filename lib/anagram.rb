@@ -7,7 +7,6 @@ class Anagram :test_word
   end
   
   def match(test_ary)
-    anagram = false
     test_ary.detect do |word|
       word.split(//).sort == @test_word.split(//).sort
     end
