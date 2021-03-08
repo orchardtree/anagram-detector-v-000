@@ -10,11 +10,7 @@ class Anagram :test_word
     anagram = false
     test_ary.detect do |word|
       word.split(//).sort == @test_word.split(//).sort
-agram = false
-      end
     end
-    anagram
-    binding.pry
   end
     
   
