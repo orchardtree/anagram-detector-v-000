@@ -5,6 +5,9 @@ class Anagram :test_word
   def initialize(test_word)
     @test_word = test_word
   end
+  
+  def match
+  end
     
   
 end
