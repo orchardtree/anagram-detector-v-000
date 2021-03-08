@@ -11,6 +11,4 @@ class Anagram :test_word
       word.split(//).sort == @test_word.split(//).sort
     end
   end
-    
-  
 end
