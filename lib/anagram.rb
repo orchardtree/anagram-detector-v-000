@@ -6,8 +6,8 @@ class Anagram :test_word
     @test_word = test_word
   end
   
-  def match(test_word)
-    
+  def match(test_ary)
+    binding.pry
   end
     
   
