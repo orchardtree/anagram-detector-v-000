@@ -9,8 +9,9 @@ class Anagram :test_word
   def match(test_ary)
     match = []
     test_ary.each do |word|
-      word.split(//).sort == @test_word.split(//).sort
-      match << word
+      if word.split(//).sort == @test_word.split(//).sort
+        match << word
+      end
     end
     match
   end
